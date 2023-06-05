@@ -16,9 +16,7 @@ const App = () => {
     ],
   });
 
-  const [filter, setFilter] = useState({
-    filter: '',
-  });
+  const [filter, setFilter] = useState({ filter: '' });
 
   const addToList = contact => {
     const isInContacts = phonebook.contacts.some(
